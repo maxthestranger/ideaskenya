@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Footer from '../components/footer/footer';
+import StartupForm from './startup_form';
 
 export default function Layout() {
   return (
@@ -18,7 +19,7 @@ export default function Layout() {
 
       {/* section wrapper */}
       <main>
-        <p>Hello world</p>
+        <StartupForm />
       </main>
 
       {/* footer */}

@@ -1,11 +1,40 @@
-$dark: #08192b;
-$light: #869fb2;
-
 .footer {
-  background: $dark;
-  color: $light;
-  padding: 50px 0 0;
-  font-size: 14px;
-  margin: 0;
-  border: none;
+  border-top: 0.1rem solid #dcdedd;
+}
+
+.ik__footer_list {
+  margin: 0 32px;
+  display: inline-flex;
+  width: auto;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0;
+  li {
+    margin: 2px 0;
+    font-size: 14px;
+    padding: 2px 16px;
+    border-right: 1px solid #eee;
+    &:last-child {
+      border-right: 0;
+    }
+    a {
+      color: #656969;
+      text-decoration: none;
+      cursor: pointer;
+      outline: 0;
+      transition: all 0.3s ease;
+      &:hover {
+        color: #282828;
+      }
+    }
+  }
+}
+
+.ik__copyright {
+  text-align: center;
+  font-size: 0.9rem;
+  margin: 32px 0 0;
+  padding-left: 12px;
+  padding-right: 12px;
+  color: #9b9e9e;
 }

@@ -1,0 +1,17 @@
+.textarea {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  width: 100%;
+  color: inherit;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 8px 12px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: inherit;
+  transition: all 0.3s ease;
+  text-align: left;
+  overflow: auto;
+  vertical-align: top;
+  margin: 0;
+}

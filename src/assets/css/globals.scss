@@ -1,3 +1,14 @@
+// variables
+$dark: #282828;
+
 ::selection {
   background-color: rgba(74, 210, 149, 0.5);
+}
+
+body {
+  color: $dark;
+}
+
+main {
+  min-height: calc(100vh - 170px);
 }
