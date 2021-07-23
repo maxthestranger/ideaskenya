@@ -1,0 +1,57 @@
+$primary: #4ad395;
+$white: #fff;
+$accent: #fca120;
+$light: rgba(0, 175, 128, 0.1);
+
+.ik__btn {
+  line-height: normal;
+  height: auto;
+  min-height: 44px;
+  padding: 10px 40px;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  transition: none;
+  font-size: 16px;
+  min-width: 44px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 3px;
+  border: none;
+}
+
+.ik__btn__primary {
+  background: $primary;
+  color: $white;
+  &:hover {
+    background: darken($primary, 10%);
+  }
+}
+
+.ik__btn__primary__outline {
+  background: transparent;
+  box-shadow: inset 0 0 0 2px $primary;
+  color: $primary;
+  &:hover {
+    background: $light;
+  }
+}
+
+.ik__btn__accent {
+  background: $accent;
+  color: #fff;
+  &:hover {
+    background: darken($accent, 10%);
+  }
+}
+
+.ik__btn__light__outline {
+  background: transparent;
+  box-shadow: inset 0 0 0 2px $white;
+  color: $white;
+  &:hover {
+    background: $light;
+  }
+}
